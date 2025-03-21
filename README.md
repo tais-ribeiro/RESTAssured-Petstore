@@ -13,4 +13,3 @@ Pesquisar por pets com status “pending” (GET /pet/findByStatus)<br />
 Eclipse, <br />
 JAVA, <br />
 Rest-Assured, Junit e Maven Dependencies<br />
->>>>>>> branch 'main' of https://github.com/tais-ribeiro/AutomationAPI-Petstore
