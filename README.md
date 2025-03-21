@@ -1,33 +1,30 @@
 # AutomationAPI-Petstore
 
-Desafio automação<br />
-1- Implementar os seguintes casos de teste para a seguinte API: https://petstore.swagger.io/<br />
+Desafio de automação  
+1. Implementar os seguintes casos de teste para a seguinte API: [Petstore Swagger](https://petstore.swagger.io/)
 
-Você deverá:<br />
-Cadastrar novo pedido de pet com sucesso (POST /store/order)<br />
-Pesquisar por um pet inexistente (GET /pet/{petId})<br />
-Atualizar dados de um pet existente (PUT /pet)<br />
-Pesquisar por pets com status “pending” (GET /pet/findByStatus)<br />
+Você deverá:
+- **Cadastrar novo pedido de pet com sucesso** (POST /store/order)
+- **Pesquisar por um pet inexistente** (GET /pet/{petId})
+- **Atualizar dados de um pet existente** (PUT /pet)
+- **Pesquisar por pets com status "pending"** (GET /pet/findByStatus)
 
-# Ferramentas utilizadas<br />
-Eclipse, <br />
-JAVA, <br />
-Rest-Assured, <br />
-JUnit e Maven Dependencies<br />
+## Ferramentas utilizadas
+- Eclipse
+- Java
+- Rest-Assured
+- JUnit
+- Maven
 
-# Descrição do Projeto<br />
-Este projeto contém testes automatizados que validam a API da Petstore. Os testes abrangem cenários de cadastro, consulta, atualização e listagem de pets, garantindo que a API opere conforme esperado.<br />
+## Descrição do Projeto
+Este projeto contém testes automatizados que validam a API da Petstore. Os testes abrangem cenários de cadastro, consulta, atualização e listagem de pets, garantindo que a API opere conforme esperado.
 
-# Estrutura do Projeto<br />
-AutomationAPI-Petstore └── src └── test └── java └── project.testapi_petstore └── ApiPetstoreTest.java
+## Como Executar os Testes
+1. **Clone o repositório:**
+git clone https://github.com/seuusuario/AutomationAPI-Petstore.git
+2. **Importe o projeto no Eclipse** como um projeto Maven.
+3. **Execute os testes** via JUnit (**Run As > JUnit Test**).
 
-# Como Executar os Testes<br />
-1. Clone o repositório:<br />
-```bash<br />
-git clone https://github.com/seuusuario/AutomationAPI-Petstore.git<br />
-```<br />
-2. Importe o projeto no Eclipse como um projeto Maven.<br />
-3. Execute os testes via JUnit (Run As > JUnit Test).<br />
-
-# Considerações Finais<br />
-Projeto desenvolvido como parte de um desafio de automação utilizando Java e Rest-Assured. Contribuições e feedback são bem-vindos!<br />
+## Considerações Finais
+Projeto desenvolvido como parte de um desafio de automação utilizando **Java** e **Rest-Assured**.  
+Contribuições e feedback são bem-vindos!
