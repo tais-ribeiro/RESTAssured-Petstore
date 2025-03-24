@@ -1,4 +1,4 @@
-# AutomationAPI-Petstore
+# RESTAssured-Petstore
 
 Desafio de automação  
 1. Implementar os seguintes casos de teste para a seguinte API: [Petstore Swagger](https://petstore.swagger.io/)
