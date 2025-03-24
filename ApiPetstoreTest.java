@@ -40,7 +40,7 @@ public class ApiPetstoreTest {
 
     @Test
     public void deveBuscarPetInexistente() {
-        String petId = "99999999";
+        String petId = "987654321";
         given()
             .contentType("application/json")
             .log().all()
